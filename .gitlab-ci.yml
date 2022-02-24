@@ -1,0 +1,5 @@
+run-all-tests:
+  stage: test
+  script:
+    - echo "This job will run all available tests"
+    - pytest
